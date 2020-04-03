@@ -280,8 +280,6 @@
 	<dict>
 		<key>HWPEnable</key>
 		<true/>
-		<key>HWPValue</key>
-		<string>0x50001C01</string>
 		<key>UseARTFrequency</key>
 		<true/>
 	</dict>

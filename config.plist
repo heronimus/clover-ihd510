@@ -290,13 +290,25 @@
 			<key>Inject</key>
 			<string>NO</string>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>WIFI</key>
-			<string>0x43a014E4</string>
-		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>#Info</key>
+				<string>Dell DW1560 4352+20702 M.2</string>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
+				<key>compatible</key>
+				<string>pci14e4,43b1</string>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>BCM4352 802.11ac Wirelles Network Adapter</string>
+				<key>name</key>
+				<string>Airport</string>
+				<key>pci-aspm-default</key>
+				<integer>0</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>#Info</key>
@@ -312,16 +324,6 @@
 			<dict>
 				<key>#Info</key>
 				<string>Display Intel HD510 (Skylake) - device path (gfxutil -f IGPU)</string>
-				<key>#framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
-				<key>#framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAbGQ==
@@ -435,10 +437,6 @@
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
@@ -448,6 +446,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14.x,10.15.x Release kernel</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				igKEwHRH
@@ -534,7 +534,7 @@
 				<key>Comment</key>
 				<string>10.11+-BCM94352-5GHz-ID-FCC-darkvoid-heronimus</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QYP8/3QsSA==
@@ -591,6 +591,8 @@
 		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>ChassisAssetTag</key>
@@ -609,6 +611,10 @@
 		<true/>
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
+		<key>SerialNumber</key>
+		<string></string>
+		<key>SmUUID</key>
+		<string></string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -617,7 +623,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 	</dict>
 </dict>
 </plist>

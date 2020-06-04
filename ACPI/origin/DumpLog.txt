@@ -1,0 +1,168 @@
+77:606  3:389  Found BIOS RSDP at %p
+77:606  0:000  Printing ACPI tables from RSDP %p ...
+77:606  0:000   %p: 'RSD PTR __ASUS_( hV$', Rev: 1344972615 (Acpi 2.0 or newer), Len: 36
+77:606  0:000    (Xsdt: %p, Rsdt: %p)
+77:606  0:000    %p: 'XSDTÌ', 'XSDT', Rev: 1344972439, Len: 1
+77:606  0:000    %p: 'RSDTx', 'RSDT', Rev: 1344972439, Len: 1
+77:606  0:000    Tables in Xsdt: 21
+77:606  0:000    0. %p: 'FACP', 'FACP', Rev: 1344972439, Len: 5
+77:606  0:000        (Dsdt: 5668A210, Facs: 57124F80, XDsdt: 5668a210, XFacs: 0)
+77:606  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:608  0:002        %p: 'FACS@', Ver: 1344972459, Len: 2
+77:608  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:608  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:608  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:608  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:608  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:608  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:608  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:608  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:608  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:608  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:608  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:608  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:608  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:608  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:608  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:608  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:608  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:608  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:608  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:608  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
+77:608  0:000    Tables in Rsdt: 21
+77:608  0:000    0. %p: 'FACP„', 'FACP', Rev: 1344972439, Len: 2
+77:608  0:000        (Dsdt: 5668A210, Facs: 57124F40)
+77:608  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:610  0:002        %p: 'FACS@', Ver: 1344972459, Len: 0
+77:610  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:610  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:610  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:610  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:610  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:610  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:610  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:610  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:610  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:610  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:610  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:610  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:610  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:610  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:610  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:610  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:610  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:610  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:610  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:610  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
+77:610  0:000  Found UEFI Acpi 2.0 RSDP at %p
+77:610  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’å½Ÿåå•ÉŸê€¨å™¨$ ...
+77:610  0:000   %p: 'RSD PTR __ASUS_( hV$', Rev: 1344972615 (Acpi 2.0 or newer), Len: 36
+77:610  0:000    (Xsdt: %p, Rsdt: %p)
+77:610  0:000    %p: 'XSDTÌ', 'XSDT', Rev: 1344972439, Len: 1
+77:610  0:000    %p: 'RSDTx', 'RSDT', Rev: 1344972439, Len: 1
+77:610  0:000    Tables in Xsdt: 21
+77:610  0:000    0. %p: 'FACP', 'FACP', Rev: 1344972439, Len: 5
+77:610  0:000        (Dsdt: 5668A210, Facs: 57124F80, XDsdt: 5668a210, XFacs: 0)
+77:610  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:612  0:002        %p: 'FACS@', Ver: 1344972459, Len: 2
+77:612  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:612  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:612  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:612  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:612  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:612  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:612  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:612  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:612  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:612  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:612  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:612  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:612  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:612  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:612  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:612  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:612  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:612  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:612  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:612  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
+77:612  0:000    Tables in Rsdt: 21
+77:612  0:000    0. %p: 'FACP„', 'FACP', Rev: 1344972439, Len: 2
+77:612  0:000        (Dsdt: 5668A210, Facs: 57124F40)
+77:612  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:614  0:002        %p: 'FACS@', Ver: 1344972459, Len: 0
+77:614  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:614  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:614  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:614  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:614  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:614  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:614  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:614  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:614  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:614  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:614  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:614  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:614  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:614  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:614  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:614  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:614  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:614  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:614  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:614  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
+77:614  0:000  Found UEFI Acpi 1.0 RSDP at %p
+77:614  0:000  Printing ACPI tables from RSDP %p ...
+77:614  0:000   %p: 'RSD PTR __ASUS_( hV$', Rev: 1344972615 (Acpi 2.0 or newer), Len: 36
+77:614  0:000    (Xsdt: %p, Rsdt: %p)
+77:614  0:000    %p: 'XSDTÌ', 'XSDT', Rev: 1344972439, Len: 1
+77:614  0:000    %p: 'RSDTx', 'RSDT', Rev: 1344972439, Len: 1
+77:614  0:000    Tables in Xsdt: 21
+77:614  0:000    0. %p: 'FACP', 'FACP', Rev: 1344972439, Len: 5
+77:614  0:000        (Dsdt: 5668A210, Facs: 57124F80, XDsdt: 5668a210, XFacs: 0)
+77:614  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:616  0:002        %p: 'FACS@', Ver: 1344972459, Len: 2
+77:616  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:616  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:616  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:616  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:616  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:616  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:616  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:616  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:616  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:616  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:616  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:616  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:616  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:616  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:616  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:616  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:616  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:616  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:616  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:616  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
+77:616  0:000    Tables in Rsdt: 21
+77:616  0:000    0. %p: 'FACP„', 'FACP', Rev: 1344972439, Len: 2
+77:616  0:000        (Dsdt: 5668A210, Facs: 57124F40)
+77:616  0:000        %p: 'DSDTKb', 'DSDT', Rev: 1344972295, Len: 2
+77:618  0:002        %p: 'FACS@', Ver: 1344972459, Len: 0
+77:618  0:000    1. %p: 'APIC„', 'APIC', Rev: 1344972439, Len: 3
+77:618  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1344972439, Len: 1
+77:618  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: 1344972439, Len: 1
+77:618  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1344972439, Len: 1
+77:618  0:000    5. %p: 'HPET8', 'HPET', Rev: 1344972439, Len: 1
+77:618  0:000    6. %p: 'SSDT', 'SSDT', Rev: 1344972439, Len: 1
+77:618  0:000    7. %p: 'ECDTÁ', 'ECDT', Rev: 1344972439, Len: 1
+77:618  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1344972439, Len: 1
+77:618  0:000    9. %p: 'SSDTH', 'SSDT', Rev: 1344972439, Len: 2
+77:618  0:000    10. %p: 'DBGP4', 'DBGP', Rev: 1344972439, Len: 1
+77:618  0:000    11. %p: 'DBG2T', 'DBG2', Rev: 1344972439, Len: 0
+77:618  0:000    12. %p: 'SSDTh=', 'SSDT', Rev: 1344972439, Len: 2
+77:618  0:000    13. %p: 'SSDT‚X', 'SSDT', Rev: 1344972439, Len: 2
+77:618  0:000    14. %p: 'UEFIB', 'UEFI', Rev: 1344972439, Len: 1
+77:618  0:000    15. %p: 'SSDTs', 'SSDT', Rev: 1344972439, Len: 2
+77:618  0:000    16. %p: 'BGRT8', 'BGRT', Rev: 1344972439, Len: 1
+77:618  0:000    17. %p: 'SSDT®', 'SSDT', Rev: 1344972439, Len: 2
+77:618  0:000    18. %p: 'DMARð', 'DMAR', Rev: 1344972439, Len: 1
+77:618  0:000    19. %p: 'TPM24', 'TPM2', Rev: 1344972439, Len: 3
+77:618  0:000    20. %p: 'SSDTx', 'SSDT', Rev: 1344972439, Len: 1
